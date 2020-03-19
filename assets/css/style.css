@@ -35,7 +35,7 @@ header h1 {
 section h2 {
     text-decoration: none;
     color: #39a6b2;
-  }
+  } 
 footer {
     text-decoration: none;
     background: #fce138;
@@ -58,15 +58,15 @@ footer a {
   }
 section h3 {
     text-decoration: none;
-    color: #39a6b2;
+    color: #024e76;
   }
 section p {
     text-decoration: none;
-    color: #39a6b2;
+    color: #024e76;
   }
 form {
     text-decoration: none;
-    color: #39a6b2;
+    color: #024e76;
   }
 section {
   padding: 60px;
@@ -75,40 +75,15 @@ section {
 .hero {
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
-  }
-    .hero-form {
-  background-color: #fce138;
-  padding: 20px;
-  width: 500px;
-  color: #024e76;
-}
-.hero-form {
-  border: 3px solid #024e76;
-  background-color: #fce138;
-  padding: 20px;
-  width: 500px;
-  color: #024e76;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-.form-input {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
-}
-/* Hero Style End */
-/* Hero Style Start */
-.hero {
-  background-image: url("../images/hero-bg.jpg");
-  height: 600px;
-  background-size: cover;
+    background-size: cover;
   background-position: center;
   position: relative;
+ }
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
 }
 .hero-form {
   border: 3px solid #024e76;
@@ -119,6 +94,15 @@ section {
   position: absolute;
   bottom: 120px;
   right: 140px;
+}
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
 }
 .hero-form h3 {
   font-size: 24px;
