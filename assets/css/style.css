@@ -266,7 +266,30 @@ section {
   font-size: 17px;
   color: #fce138;
 }
-/* trainer bio ends and reach out style section starts*/
+/* trainer bio ends and grid line starts */
+
+.service-grid-container {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+}
+
+.service-grid-item {
+  background-color: orange;
+  border: solid;
+  padding: 1em;
+  color: black;
+}
+
+.grid-container {
+  place-items: <align-items>  <justify-items>;
+}
+
+
+/*reach out style section starts*/
 
 .section-title,
 .secondary-border {
@@ -448,7 +471,6 @@ footer a {
   }
 
 }
-
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (min-width: 575px) {
