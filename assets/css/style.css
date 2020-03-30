@@ -238,8 +238,7 @@ section {
 .checkbox-wrapper input:checked + label::after, .radio-wrapper input:checked + label::after {
     content: "";
 }
-/* HERO STYLE END*/
-/*WHAT WE/YOU DO START*/
+/* HERO STYLE END WHAT WE/YOU DO START*/
 .intro p{
     line-height: 1.7;
     color: var(--tertiary-color);
