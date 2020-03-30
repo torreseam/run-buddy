@@ -97,8 +97,9 @@ footer a{
 section {
     padding: 60px;
 }
-/* HEADER AND FOOTER END */
-/* HERO STYLE START*/
+
+/* HEADER AND FOOTER END  HERO STYLE START*/
+
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -189,6 +190,7 @@ section {
     margin: 10px;
     line-height: 1.6;
 }
+
 /* PSUEDO CHECKBOX/RADIO */
 .checkbox-wrapper label::before, .radio-wrapper label::before {
     content: "";
