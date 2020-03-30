@@ -110,10 +110,6 @@ section {
     align-items: flex-start;
 }
 
-  background-position: center;
-  position: relative;
- }
-
 .hero-form {
     background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
