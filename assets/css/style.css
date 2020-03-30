@@ -97,9 +97,8 @@ footer a{
 section {
     padding: 60px;
 }
-
-/* HEADER AND FOOTER END  HERO STYLE START*/
-
+/* HEADER AND FOOTER END */
+/* HERO STYLE START*/
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -190,7 +189,6 @@ section {
     margin: 10px;
     line-height: 1.6;
 }
-
 /* PSUEDO CHECKBOX/RADIO */
 .checkbox-wrapper label::before, .radio-wrapper label::before {
     content: "";
@@ -238,7 +236,8 @@ section {
 .checkbox-wrapper input:checked + label::after, .radio-wrapper input:checked + label::after {
     content: "";
 }
-/* HERO STYLE END WHAT WE/YOU DO START*/
+/* HERO STYLE END*/
+/*WHAT WE/YOU DO START*/
 .intro p{
     line-height: 1.7;
     color: var(--tertiary-color);
